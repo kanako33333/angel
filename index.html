@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css">
+    <title>天空のエンジェル</title>
+</head>
+<body>
+    <div id="video-area">
+        <video id="video" poster="img/bg.jpg" webkit-playsinline playsinline muted autoplay loop>
+            <!--
+            poster：動画ファイルが利用できない環境で代替表示される画像
+            webkit-playsinline：iOS 9までのSafari用インライン再生指定
+            playsinline：iOS 10以降のSafari用インライン再生指定
+            muted：音声をミュートさせる
+            autoplay：動画を自動再生させる
+            loop：動画をループさせる
+            controls：コントロールバーを表示する
+            -->
+            <source src="video/bg.mp4" type="video/mp4">
+            <source src="video/bg.ogv" type="video/ogv">
+            <source src="video/bg.webm" type="video/webm">
+            <p>動画を再生できる環境ではありません。</p>
+            </video>
+            <!--/video-area-->
+            <header class="header">
+                <h1 class="header-ttl"><a href="#" class="header-ttl-link"><span>００GAMES</span></a></h1>
+                <form class="header-search" action="" method="get">
+                    <input type="search" name="search" placeholder="ゲームをさがす">
+                </form>
+            </header>
+            <section class="section-wrap">
+                <div class="section-inner">
+                    <mv class="mv">
+                        <img src="img/game-ttl.png" alt="" class="mv-ttl">
+                        <img src="img/idol.png" alt="" class="mv-img fuwafuwa">
+                    </mv>
+                </div>
+            </section>
+            <div class="download-btn">
+                <a href="" class="download-link">ダウンロードはこちら</a>
+            </div>
+            <section class="section-wrap">
+                <div class="section-inner">
+                    <div class="menu">
+                        <a href="" class="menu-link menu-link1">
+                            <div class="menu-detail">
+                                <img src="img/cloud1.png" alt="" class="menu-img">
+                                <img src="img/face1.png" alt="" class="menu-face menu-face1">
+                                <p class="menu-text">天空の<br>エンジェル</p>
+                            </div>
+                        </a>
+                        <a href="" class="menu-link menu-link2">
+                            <div class="menu-detail">
+                                <img src="img/cloud2.png" alt="" class="menu-img">
+                                <img src="img/face2.png" alt="" class="menu-face menu-face2">
+                                <p class="menu-text">個性的な<br>キャラ</p>
+                            </div>
+                        </a>
+                        <a href="" class="menu-link menu-link3">
+                            <div class="menu-detail">
+                                <img src="img/cloud3.png" alt="" class="menu-img">
+                                <img src="img/face3.png" alt="" class="menu-face menu-face3">
+                                <p class="menu-text">可愛く<br>育てよう</p>
+                            </div>
+                        </a>
+                        <a href="" class="menu-link menu-link4">
+                            <div class="menu-detail">
+                                <img src="img/cloud4.png" alt="" class="menu-img">
+                                <img src="img/face4.png" alt="" class="menu-face menu-face4">
+                                <p class="menu-text">仲間と<br>助け合える</p>
+                            </div>
+                        </a>
+                        <a href="" class="menu-link menu-link5">
+                            <div class="menu-detail">
+                                <img src="img/cloud5.png" alt="" class="menu-img">
+                                <img src="img/face5.png" alt="" class="menu-face menu-face5">
+                                <p class="menu-text">新機能の<br>お知らせ</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </section>
+            <section class="section-wrap">
+                <div class="section-inner">
+                    <div class="info">
+                        <img src="img/package.png" alt="" class="info-list info-package">
+                        <div class="info-list info-detail">
+                            <p class="info-text"><span>2022</span>年<span>2</span>月<span>16</span>日発売</p>
+                            <p class="info-text">希望小売価格　<span>6200</span>円（税別）</p>
+                        </div>
+                        <a href="" class="info-list btn btn-tag"><i class="fas fa-shopping-cart"></i>カートに入れる</a>
+                    </div>
+                </div>
+            </section>
+            <footer class="footer">
+                <div class="footer-inner">
+                    <small>&copy;００GAMES</small>
+                    <div class="footer-detail">
+                        <a href="" class="footer-link">パッケージ版取扱店</a>
+                        <div class="line"></div>
+                        <a href="" class="footer-link">天空のエンジェル公式Twitter</a>
+                        <div class="line"></div>
+                        <a href="" class="footer-link">００GAMESホームページ</a>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    <!-- jqueryの読み込み -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- main.jsの読み込み -->
+    <script src="js/main.js"></script>
+</body>
+</html>
